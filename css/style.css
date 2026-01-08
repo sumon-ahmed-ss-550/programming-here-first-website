@@ -168,8 +168,10 @@ Header_start
 #header_section .banner .banner_image img {
   vertical-align: middle;
   position: absolute;
-  top: 0;
   right: -195px;
+  width: 584;
+  height: 676px;
+  bottom: 0;
 }
 /*=============================================
 Header_end

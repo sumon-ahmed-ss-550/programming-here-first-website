@@ -46,9 +46,10 @@ Shared_style_class_end_here
 Header_start
 ==============================================*/
 #header_section {
-  background: url("../images/developer.png"), #fff8f3;
-  background-repeat: no-repeat;
-  background-position: 125px center;
+  background: url("../images/developer.png"), url("../images/header_bg.png"),
+    #fff8f3;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 125px center, right bottom;
 }
 #header_section .navigation {
   display: flex;
@@ -133,6 +134,8 @@ Header_start
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 676px;
+  position: relative;
 }
 #header_section .banner .banner_text {
   max-width: 585px;

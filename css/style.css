@@ -308,8 +308,6 @@ Header_end
   margin-top: 113px;
   padding: 130px 0;
 }
-#main_content footer .contact_section .social_media {
-}
 #main_content footer .contact_section .social_media h2 {
   color: #181818;
   font-size: 35px;
@@ -327,8 +325,6 @@ Header_end
   display: flex;
   flex-direction: row;
   gap: 24px;
-}
-#main_content footer .contact_section form {
 }
 #main_content footer .contact_section form h2 {
   color: #181818;

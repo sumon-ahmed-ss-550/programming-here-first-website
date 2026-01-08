@@ -167,6 +167,9 @@ Header_start
 }
 #header_section .banner .banner_image img {
   vertical-align: middle;
+  position: absolute;
+  top: 0;
+  right: -195px;
 }
 /*=============================================
 Header_end

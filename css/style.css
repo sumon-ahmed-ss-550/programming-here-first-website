@@ -336,10 +336,6 @@ textarea {
   margin-bottom: 24px;
   border-radius: 5px;
 }
-/* #main_content footer .contact_section form input[type="text"] {
-}
-#main_content footer .contact_section form input[type="email"] {
-} */
 #main_content footer .contact_section form textarea {
   height: 180px;
   box-sizing: border-box;

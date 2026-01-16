@@ -46,6 +46,12 @@
   #header_section {
     background: url(""), url(""), #fff8f3;
   }
+  #main_content .resume_section .resume_container {
+    flex-direction: column;
+  }
+  #main_content footer .contact_section {
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 586px) {
   #header_section .banner .banner_image {

@@ -306,7 +306,7 @@ Header_end
 #main_content footer .contact_section {
   display: flex;
   flex-direction: row;
-  gap: 117px;
+  gap: 30px;
   margin-top: 113px;
   padding: 130px 0;
 }
@@ -317,7 +317,7 @@ Header_end
   margin-bottom: 20px;
 }
 #main_content footer .contact_section .social_media p {
-  width: 562px;
+  max-width: 562px;
   color: #474747;
   font-size: 16px;
   margin-bottom: 30px;

@@ -203,11 +203,12 @@ Header_end
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
 }
 #main_content .about_me .about .about_info h6 {
   color: #757575;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #main_content .about_me .about .about_info h5 {
   color: #474747;
@@ -224,7 +225,7 @@ Header_end
   margin-bottom: 30px;
 }
 #main_content .my_experience .experience {
-  width: 827px;
+  max-width: 827px;
   color: #757575;
   font-size: 18px;
   margin: 0px auto;
@@ -232,7 +233,6 @@ Header_end
 }
 #main_content .my_experience .card_container {
   display: flex;
-  flex-direction: row;
 }
 #main_content .my_experience .card_container .card {
   margin-top: 50px;

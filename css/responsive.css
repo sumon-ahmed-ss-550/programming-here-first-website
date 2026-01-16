@@ -23,6 +23,18 @@
   #header_section {
     background-position: 10px 176px, right bottom;
   }
+  #main_content .my_experience .card_container {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 880px) {
+  #main_content .about_me .about .about_info {
+    flex-direction: column;
+    gap: 50px;
+  }
+  #main_content .about_me {
+    padding: 131px 20px 50px 20px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #header_section .navigation {

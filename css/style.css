@@ -14,10 +14,14 @@ Reset_code_end_here
 /*=============================================
 Shared_style_class_start_here
 ==============================================*/
+.collapse {
+  display: none;
+}
 .container {
   width: 100%;
   max-width: 1140px;
   margin: 0px auto;
+  padding: 0 16px;
 }
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
@@ -49,7 +53,7 @@ Header_start
   background: url("../images/developer.png"), url("../images/header_bg.png"),
     #fff8f3;
   background-repeat: no-repeat, no-repeat;
-  background-position: 125px center, right bottom;
+  background-position: 40px center, right bottom;
 }
 #header_section .navigation {
   display: flex;
@@ -134,8 +138,6 @@ Header_start
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 676px;
-  position: relative;
 }
 #header_section .banner .banner_text {
   max-width: 585px;
@@ -167,11 +169,11 @@ Header_start
 }
 #header_section .banner .banner_image img {
   vertical-align: middle;
-  position: absolute;
-  right: -195px;
-  width: 584;
+  width: 100%;
   height: 676px;
-  bottom: 0;
+  position: relative;
+  right: -8rem;
+  transition: 0.2s ease;
 }
 /*=============================================
 Header_end

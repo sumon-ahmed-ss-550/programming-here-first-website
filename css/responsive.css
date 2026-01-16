@@ -1,0 +1,47 @@
+/* responsive area */
+@media only screen and (max-width: 1440px) {
+  #header_section .banner .banner_image img {
+    right: -4rem;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  #header_section .banner .banner_image img {
+    right: 0;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #header_section .banner {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  #header_section .banner .banner_text {
+    text-align: center;
+  }
+  #header_section .banner .banner_text .btn_group {
+    justify-content: center;
+  }
+  #header_section {
+    background-position: 10px 176px, right bottom;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #header_section .navigation {
+    flex-direction: column;
+  }
+  #header_section .navigation .navigation_menu {
+    margin-top: 40px;
+  }
+  #header_section {
+    background: url(""), url(""), #fff8f3;
+  }
+}
+@media only screen and (max-width: 586px) {
+  #header_section .banner .banner_image {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #header_section .navigation .navigation_menu {
+    flex-direction: column;
+  }
+}
